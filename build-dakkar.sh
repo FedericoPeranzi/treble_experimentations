@@ -185,6 +185,14 @@ function get_rom_type() {
                 extra_make_options="WITHOUT_CHECK_API=true"
                 jack_enabled="false"
                 ;;
+	    pixel10)
+                mainrepo="https://github.com/PixelExperience/manifest.git"
+                mainbranch="10"
+                localManifestBranch="android-10.0"
+                treble_generate="pixel"
+                extra_make_options="WITHOUT_CHECK_API=true"
+                jack_enabled="false"
+                ;;
             potato-pie)
                 mainrepo="https://github.com/PotatoProject/manifest.git"
                 mainbranch="baked-release"
