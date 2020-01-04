@@ -53,6 +53,7 @@ ROM types:
   mokee-oreo
   pixel81
   pixel90
+  pixel10
   potato-pie
   rebellion-pie
   rr-oreo
